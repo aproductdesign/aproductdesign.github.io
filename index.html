@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+html {
+    font-family: 'Work Sans', sans-serif;
+    background: #061020;
+    color: white;
+}
+
+main {
+   margin: 60px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+#contact {
+    margin-top: 60px;
+}
+
+#contact a {
+    color: #24C1F2;
+    text-decoration: none;
+}
+
+</style>
+</head>
+<body>
+<main>
+<h1>
+Ann<br/>
+Product designer<br/>
+Creating designs for mobile apps and SaaS
+</h1>
+<div id="contact">
+<a href="mailto:annproductdesign@gmail.com
+">Contact me</a>
+</div>
+</main>
+</body>
+</html>
+  
