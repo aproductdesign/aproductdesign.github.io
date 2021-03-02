@@ -20,12 +20,16 @@ html {
 }
 
 main {
-   margin: 60px;
+   margin: 160px 120px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 500;
+}
+
+li {
+    list-style-type: none;
 }
 
 strong {
@@ -34,28 +38,23 @@ strong {
 }
 
 #links {
-    margin-top: 60px;
+    position: absolute;
+    top: 16px;
+    right: 80px;
 }
 
-#portfolio a{
+#links li {
+    display: inline-block;
+    margin-left: 24px;
+}
+
+#links a {
     color: #1390D7;
-    font-size: 22px;
-}
-
-
-#contact {
-    margin-top: 48px;
-}
-
-#contact a {
-    color: white;
-    background: #1390D7;
     font-family: 'Mulish', sans-serif;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
-    padding: 12px 24px;
 }
 
 #links a {    
@@ -65,20 +64,20 @@ strong {
 </style>
 </head>
 <body>
+<ul id="links">
+<li id="portfolio">
+<a href="https://www.behance.net/ann-r">Portfolio</a>
+</li>
+<li id="contact">
+<a href="mailto:annproductdesign@gmail.com">Contact me</a>
+</li>
+</ul>
 <main>
 <h1>
 Ann<br/>
 Product designer<br/>
 Creating designs for <strong>mobile apps</strong> and <strong>SaaS</strong>
 </h1>
-<div id="links">
-<div id="portfolio">
-<a href="https://www.behance.net/ann-r">Portfolio</a>
-</div>
-<div id="contact">
-<a href="mailto:annproductdesign@gmail.com">Contact me</a>
-</div>
-</div>
 </main>
 </body>
 </html>
